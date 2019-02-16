@@ -1,9 +1,5 @@
 package com.example.patterns.singleton.entry;
 
-import org.apache.log4j.Logger;
-
-import java.util.HashMap;
-
 public class SingletonObject {
 
     private static SingletonObject instance = null;
