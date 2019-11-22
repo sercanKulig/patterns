@@ -1,0 +1,12 @@
+Eski sistem veya bir parçasını kullanmaya yarar
+Amacı
+-Var olan kodu tekrar kullanmak.
+-Alakasız classları veya methodları ayıklamak
+Yapması Gereken
+-Adaptörden adapte olduğuna request istek gitmesi gerek. inheritence ve referans yoluyla olabilir.
+Artıları
+-Adaptör adapte olduğunu override edebilir
+-Bir Adaptör birçok yere adapte olabilir.
+Eksisi
+-Bir çok subclassı olan classları extend edemez
+-adapte olduğu yerleri override etmesi zordur.

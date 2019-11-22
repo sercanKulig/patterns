@@ -1,0 +1,11 @@
+Çok sayıda bazıları aynı objelerin efektif paylaşılmasını sağlar
+Amacı
+-Çok obje varsa
+-Tutulması çok yer tutuyorsa
+-Bazıları aynıysa
+-Objenin bilgisi önemli değilse
+Artısı
+-Instance sayısını azaltır.
+-Her objenin gerçek statini geri verir.
+Eksisi
+-Runtime'da azda olsa zorlar -> paylaşılan instanceler'i kontrol etmek için. Artısı eksisinden fazla

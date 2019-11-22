@@ -1,0 +1,12 @@
+WRAPPER = DECORATOR
+Objeye dinamik olarak yeni sorumluluk eklemeye yarar.
+Altclassları extend etmeye esnek alternatif çözüm olarak kullanılır.
+Amacı
+-Farklı objeleri etkilemeden objye ekstra sorumluluk ekler
+-Sorumluluklar istenildiği zaman çıkartılabilir.
+Artıları
+-Inheritence'den daha esnek
+-İstenildiğinde sorumluluk eklenilip çalıştırılır.
+-Eksileri
+-Objenin Id'si kullanılamaz.Db bağlantılı işlerde kullanılmamalı.
+-Çok fazla decorator objesi performans problemi oluşturabilir.

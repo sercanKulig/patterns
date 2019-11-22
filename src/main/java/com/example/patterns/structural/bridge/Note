@@ -1,0 +1,6 @@
+Amacı
+-İnterface ve İmplementation arasındaki bağdan kaçınma
+-İmplementation'u runtime'da client'i etkilemeden değiştirir.
+Artısı
+-Kolay genişletilebilir.
+-İmplementation'un detayını gizler

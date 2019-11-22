@@ -1,0 +1,16 @@
+Kompleks alt sistemler için arayüz olarak kullanılıyor.
+Bir işi yapmak için birçok alt iş yapılması gerkiliyorsa, facade'ye işlerin isteği veriliyor facate yönetiyor.
+Yoğun ve çok isteğin yapıldığı sistemlerde, karışıklığı azaltmak amacıyla kullanılır
+Amacı
+-Alt sistemler ve isekte bulunanı ayrıştırmak
+-Kolay kullanılan arayüz sağlamak
+-Alt sistemleri katmanlara ayırmak
+Yapması gereken
+-istekte bulunan ve alt sistem arasındaki obje geçişini gerçekleştirmeli
+-istekte bulunan alt sisteme erişmemeli(ayrıştırma)
+Artıları
+-Alt sistemlerin kullanımı kolaylaşır
+-Kodlar ayrışır
+-Eğer çok gerekli olursa alt sistemler direk kullanılabilir.
+Eksisi
+-Facade ile yazma herzaman bir ekstra ara katman yazma gerekliliği doğrur, bazen değeri olmayan katmanlar yazman gerekebilir.

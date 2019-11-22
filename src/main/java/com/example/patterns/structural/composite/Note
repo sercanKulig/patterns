@@ -1,0 +1,11 @@
+Objeleri ağaç hiyerarşisinde tam veya bir parça olarak derlemr.
+Her bir objeyi tek tek çalışmasını sağlar.
+Amacı
+-obje ve derlemeniş objeler arasındaki farkı umursamaz
+-Tüm veya derlemenin bir parçasını temsil eder
+Artısı
+-Objeler arasındaki hiyerarşiyi belirler.
+-kullanın için kolaylaştırır.
+-Yeni komponent eklemesi çok kolay
+Eksileri
+-Farklı özellikleri olan componentleri eklemek zor
