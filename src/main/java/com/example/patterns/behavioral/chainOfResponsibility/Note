@@ -1,0 +1,11 @@
+requesti göndereren birçok işlem yapacak birden fazla obje değişecekse kullanılabilir.
+chain boyunca tüm verilen görevleri yapar.
+Amacı
+-Birden fazla objeyi değiştirmek
+-requesti yapanı nerede ve ne tarafta konunun halledildiği önemli değildir
+-konunun çalıştığı taraf dinamik olmalıdır.
+Artısı
+-request yapan ve requesi alan arasında ki bağ azalır
+Eksisi
+-requesin tamamlanacağının garantisi yok
+

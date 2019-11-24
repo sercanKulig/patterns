@@ -1,0 +1,13 @@
+Yapılacak işlemin objesinin içerisinde kullanılan objenin içeriğini temsil eder.
+Operasyon yapılan yapılan class'ın elementlerini değiştirmeden, yeni operasyonlar tanımlanamanızı sağlar .
+Amacı
+-Karmaşık yapılı objeleri kullanmayı - inherite almış classların içeriğine göre -sağlar
+-inheritence alacak classlarda aşırı gereksiz class oluşmamasını sağlar
+-ingeritece almış classların üzerinde çok değişiklik yapmadan yeni operasyon tanımlamayı sağlar.
+Artısı
+-Yeni operasyın eklemesi kolay
+-İçinde olmaması gereken operayonları ayırır
+-Hierarşi içerisinde olduğundan tüm stateleri biriktirir
+Eksisi
+-yeni kapsayıcı element eklemesi zor, tüm kapsayıcı visitorlar için yeni method tanımlamak gerekiyor.
+-Encapsulationu böler

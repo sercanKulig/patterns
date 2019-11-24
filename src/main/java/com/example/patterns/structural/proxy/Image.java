@@ -2,11 +2,11 @@ package com.example.patterns.structural.proxy;
 
 public class Image {
 
-    public Image() {
+    Image() {
     }
 
-    protected String url;
-    public Image(String url) {
+    String url;
+    Image(String url) {
         System.out.println("Loading image!");
         this.url = url;
     }

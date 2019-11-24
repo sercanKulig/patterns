@@ -1,0 +1,14 @@
+requesti obje haline getirip istenilen diğer işlemleri yapmayı sağlar.
+Kullanımı
+-gönerilen emin parametrik
+-parametre genel bir obje
+-queue request
+-requestin state'sini kaydet
+-geri alabilir
+-yap veya geri al methodu sağlar
+-loglamayı destekler
+-hata olması durumunda tekrar çalıştır.
+Artısı
+-Operasyonu çağıran obje ile operasyonu yapanı ayırır
+-Commandlar obje yani tüm oo kuralları uygulanabilir
+-Yeni command eklemek çok kolay

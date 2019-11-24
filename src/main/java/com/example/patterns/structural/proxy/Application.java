@@ -1,12 +1,11 @@
 package com.example.patterns.structural.proxy;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Application {
-    private List<Image> images = new ArrayList<Image>();
+    private List<Image> images;
 
-    public Application(List<Image> images) {
+    Application(List<Image> images) {
         this.images = images;
     }
 
